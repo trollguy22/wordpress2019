@@ -1,0 +1,129 @@
+
+.srrl_metabox .postbox {
+	margin-bottom: 3px;
+}
+.srrl_label_cap,
+.srrl_blogs_list {
+	display: inline-block;
+	width: 250px;
+}
+.srrl_postbox div.hndle {
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 2.2em;
+	padding-right: 15px;
+	font-size: 14px;
+	padding: 8px 12px;
+	margin: 0px;
+	cursor: default !important;
+	border: none;
+}
+#srrl_form .hndle {
+	cursor: pointer;
+	position: relative;
+	z-index: 10;
+}
+#srrl_form .postbox .handlediv {
+	position: relative;
+	z-index: 5;
+}
+.srrl_blogs_list span {
+	display: table-cell;
+	vertical-align: middle;
+}
+.srrl_blog_checkbox {
+	width: 16px;
+	margin: -4px 4px 0 0;
+}
+.srrl_info {
+	margin-top: 0;
+}
+
+/*
+ * styles for ADS
+ */
+.bws_pro_version_table_bloc .bws_table_bg {
+	top: 0;
+	left: 0;
+}
+.bws_pro_version_bloc .bws_pro_version_tooltip {
+	display: inline-block;
+	top: 4px;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 1em;
+}
+.srrl_page_title > span {
+	padding-right: 10px;
+}
+.srrl_add_new.bws_pro_version_bloc {
+	margin-top: 10px;
+	max-width: 550px;
+}
+
+.srrl_select .bws_pro_version_table_bloc {
+	line-height: 1em;
+}
+.srrl_select .bws_pro_version_tooltip {
+	top: 10px;
+}
+.srrl_blog_list {
+	max-width: 100% !important;
+}
+.srrl_blog_list .bws_pro_version_table_bloc {
+	padding: 10px;
+	box-sizing: border-box;
+}
+.srrl_blog_list .bws_help_box {
+	position: relative;
+	z-index: 2;
+}
+.srrl_cell {
+	padding: 0 5px;
+}
+.srrl_row {
+	display: table-row;
+}
+.srrl_page_title > span,
+.srrl_cell {
+	display: inline-block;
+	vertical-align: middle;
+}
+@media only screen and ( max-width: 782px ) {
+	.srrl_label_cap,
+	.srrl_blogs_list {
+		margin-top: 10px;
+	}
+}
+@media only screen and ( max-width: 450px ) {
+	.srrl_row,
+	.srrl_cell {
+		display: block;
+	}
+	.srrl_blog_switcher_top {
+		display: none;
+	}
+	.srrl_blog_switcher_bottom,
+	.srrl_postbox select {
+		width: 100%;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	.srrl_label_cap,
+	.srrl_blogs_list {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.srrl_blogs_list {
+		padding-bottom: 4px;
+	}
+	.srrl_blog_switcher select {
+		width: 100%;
+	}
+	.srrl_row {
+		clear: both;
+		float: none !important;
+	}
+}
